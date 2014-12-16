@@ -1,0 +1,12 @@
+# Site settings
+title: Tech talk – my experiments with technology...
+email: asinghal79@gmail.com
+description: Aishwarya is a technologist with interests in various programming languages. This site has his notes from different experiments.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://github.com/asinghal" # the base hostname & protocol for your site
+twitter_username: asinghal79
+github_username:  asinghal
+gems:
+  - jemoji
+# Build settings
+markdown: redcarpet
