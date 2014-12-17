@@ -6,8 +6,6 @@ layout: post
 slug: what-happened-to-slate-9
 title: What happened to Slate?
 wordpress_id: 104
-categories:
-- Scala
 tags:
 - scala
 - slate

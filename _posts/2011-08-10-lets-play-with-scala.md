@@ -6,9 +6,9 @@ layout: post
 slug: lets-play-with-scala
 title: Lets Play with Scala
 wordpress_id: 82
-categories:
-- Play Framework
-- Scala
+tags:
+- PlayFramework
+- scala
 ---
 
 Sometime earlier this year, I read a [blog ](http://ikaisays.com/2009/04/02/twitter-ruby-on-rails-scala-and-people-who-dont-rtfa/) and an [article](http://www.theregister.co.uk/2009/04/01/twitter_on_scala/). These are interesting thoughts and coming from the Java space of enterprise applications, I know exactly how bad performance and unmaintainable the code can get.

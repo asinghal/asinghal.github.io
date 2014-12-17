@@ -6,7 +6,7 @@ layout: post
 slug: reading-excel-in-rails
 title: Reading Excel in Rails
 wordpress_id: 57
-categories:
+tags:
 - Rails
 - Ruby
 ---

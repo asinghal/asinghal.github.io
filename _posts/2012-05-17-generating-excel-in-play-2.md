@@ -6,9 +6,9 @@ layout: post
 slug: generating-excel-in-play-2
 title: Generating Excel in Play 2
 wordpress_id: 109
-categories:
-- Play Framework
-- Scala
+tags:
+- PlayFramework
+- scala
 ---
 
 Play 1.x has a nice module that allows you to create Excel sheets. The new Play 2.x however lacks this capability. Or atleast is not very evident. While I found most of the information by searching the net, I thought it may help someone to just have quick start notes here.

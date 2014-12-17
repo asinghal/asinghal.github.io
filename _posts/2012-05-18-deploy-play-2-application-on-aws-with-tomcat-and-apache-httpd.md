@@ -6,7 +6,7 @@ layout: post
 slug: deploy-play-2-application-on-aws-with-tomcat-and-apache-httpd
 title: Deploy Play 2 application on AWS with Tomcat and Apache HTTPD
 wordpress_id: 124
-categories:
+tags:
 - Play Framework
 - Scala
 - Set up

@@ -6,7 +6,7 @@ layout: post
 slug: do-you-git-it
 title: Do you Git it ?
 wordpress_id: 69
-categories:
+tags:
 - Git
 - Rails
 ---

@@ -6,7 +6,7 @@ layout: post
 slug: ruby-jquery-and-ajax
 title: Ruby, JQuery and AJAX
 wordpress_id: 29
-categories:
+tags:
 - JQuery
 - Ruby
 ---

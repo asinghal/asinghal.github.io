@@ -6,7 +6,7 @@ layout: post
 slug: implementing-pagination-in-rails
 title: Implementing Pagination in Rails
 wordpress_id: 48
-categories:
+tags:
 - Rails
 - Ruby
 ---

@@ -6,7 +6,7 @@ layout: post
 slug: some-quick-tips
 title: Some Quick Tips
 wordpress_id: 52
-categories:
+tags:
 - Rails
 - Ruby
 ---

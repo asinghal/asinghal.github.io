@@ -6,11 +6,10 @@ layout: post
 slug: need-for-stub
 title: Need for Stub!
 wordpress_id: 6
-categories:
+tags:
 - ESB
 - J2EE
 - Quality
-tags:
 - ESB
 - Mule
 - Stubs

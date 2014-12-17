@@ -6,8 +6,8 @@ layout: post
 slug: an-ide-for-scala
 title: An IDE for Scala
 wordpress_id: 86
-categories:
-- Scala
+tags:
+- scala
 ---
 
 I have been working on Scala in my spare time for the past ~3 months now and I absolutely love it! It is extremely powerful, the syntax is sleek and it has an API for almost every basic operation!

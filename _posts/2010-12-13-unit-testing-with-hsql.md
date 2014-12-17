@@ -6,11 +6,10 @@ layout: post
 slug: unit-testing-with-hsql
 title: Unit Testing with HSQL
 wordpress_id: 12
-categories:
+tags:
 - J2EE
 - Quality
 - Unit Testing
-tags:
 - HSQL
 - Junits
 - Unit Testing

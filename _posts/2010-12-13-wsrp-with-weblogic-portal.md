@@ -6,10 +6,6 @@ layout: post
 slug: wsrp-with-weblogic-portal
 title: WSRP with Weblogic Portal
 wordpress_id: 10
-categories:
-- J2EE
-- Portlets
-- WSRP
 tags:
 - J2EE
 - Remote Portlets

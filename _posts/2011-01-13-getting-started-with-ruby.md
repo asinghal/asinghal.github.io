@@ -6,7 +6,7 @@ layout: post
 slug: getting-started-with-ruby
 title: Getting started with Ruby
 wordpress_id: 24
-categories:
+tags:
 - Ruby
 ---
 

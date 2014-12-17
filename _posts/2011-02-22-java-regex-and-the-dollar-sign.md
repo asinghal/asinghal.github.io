@@ -6,7 +6,7 @@ layout: post
 slug: java-regex-and-the-dollar-sign
 title: Java Regex and the Dollar Sign
 wordpress_id: 63
-categories:
+tags:
 - J2EE
 ---
 

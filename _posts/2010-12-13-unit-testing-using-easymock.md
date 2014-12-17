@@ -6,11 +6,10 @@ layout: post
 slug: unit-testing-using-easymock
 title: Unit Testing Using EasyMock
 wordpress_id: 8
-categories:
+tags:
 - J2EE
 - Quality
 - Unit Testing
-tags:
 - EasyMock
 - Junits
 - Unit Testing
