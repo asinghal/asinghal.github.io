@@ -26,6 +26,17 @@
     }
 }
 
+.social-sharing {
+    margin-top: 2em;
+    margin-bottom: 5px;
+    min-height: 1.5em;
+
+    > .button {
+        float: left;
+        margin: 0 0.25em;
+    }
+}
+
 .site-nav {
     float: right;
     line-height: 56px;
@@ -179,8 +190,13 @@
     margin-left: 0;
     list-style: none;
 
+    h2.recent-post-title {
+        border-left: 1em solid #5398bb;
+        padding-left: 0.5em;
+    }
+
     > li {
-        margin-bottom: $spacing-unit;
+        /* margin-bottom: $spacing-unit; */
     }
 }
 

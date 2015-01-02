@@ -11,12 +11,15 @@ layout: default
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h2 class="recent-post-title">
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        <span class="post-meta"><a href="{{site.url}}{{post.url}}#disqus_thread">&nbsp;</a></span>
+
         <div class="post">
           <article class="post-content">
           <p>{{ post.content}}</p>
+            {% include social.html %}
           </article>
         </div>
       </li>
