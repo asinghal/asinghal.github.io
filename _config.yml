@@ -9,4 +9,4 @@ github_username:  asinghal
 gems:
   - jemoji
 # Build settings
-markdown: redcarpet
+markdown: GFM
