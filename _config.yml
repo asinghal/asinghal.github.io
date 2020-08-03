@@ -9,4 +9,9 @@ github_username:  asinghal
 gems:
   - jemoji
 # Build settings
-markdown: GFM
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
