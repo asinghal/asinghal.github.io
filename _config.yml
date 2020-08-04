@@ -6,6 +6,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://asinghal.github.io" # the base hostname & protocol for your site
 twitter_username: asinghal79
 github_username:  asinghal
+linkedin_url: "https://www.linkedin.com/in/aishwaryasinghal/"
 gems:
   - jemoji
 # Build settings
