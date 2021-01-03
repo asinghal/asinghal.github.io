@@ -8,7 +8,7 @@ tags:
 
 I haven't written much in recent years, at least not publicly, and I decided now would be a good time to start again. 
 
-I also haven't written much code in recent years, so I decided to re-write [Factile](www.factile.net) in a more popular tech stack. It has been a great experience for various reasons:
+I also haven't written much code in recent years, so I decided to re-write [Factile](http://www.factile.net) in a more popular tech stack. It has been a great experience for various reasons:
 
 1. I could resurrect Factile which has been sitting on a broken server for past 3 years with me having no time to fix it
 2. I could experience first hand some of the techs my colleagues have been talking about - its been extremely fulfilling
