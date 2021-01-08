@@ -17,12 +17,10 @@ Based on these 3 ideas, I have a few practical tips.
 1. **Build on best-in-class programming techniques**
     My favourite here is the [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) that was published in 1978 (yes, over 40 years ago!):
 
-    ```
-    * Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".
-    * Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
-    * Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.
-    * Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.
-    ```
+        * Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".
+        * Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
+        * Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.
+        * Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.
 
     Why do I love these? These have stayed solid (as has UNIX) over the past 40 years. I derive my coding principles from these, and the following are my most commonly used ones at the moment
 
@@ -33,9 +31,8 @@ Based on these 3 ideas, I have a few practical tips.
     * Refactor, refactor, refactor: Do not shy away from refactoring. The principle is, `Whenever you look at a piece of code, aspire to leave it in a better state than you found it in`
 
     A technique I find useful in writing modular code is:
-    ```
-    Every time you feel the need to write a comment in the code, see if you can make a new method/ service. Comments usually indicate that the code is doing more than what can be easily understood.
-    ```
+
+        Every time you feel the need to write a comment in the code, see if you can make a new method/ service. Comments usually indicate that the code is doing more than what can be easily understood.
 
     You can use any programming language, and any style - my personal favourite at the moment is Functional programming in whichever language I use, because it helps me implement the above mentioned goals easily.
 
