@@ -15,11 +15,15 @@ Is the practice of developing software a science (Computer Science), an engineer
 Based on these 3 ideas, I have a few practical tips.
 
 1. **Build on best-in-class programming techniques**
+
     My favourite here is the [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) that was published in 1978 (yes, over 40 years ago!):
 
         * Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".
+
         * Expect the output of every program to become the input to another, as yet unknown, program. Don't clutter output with extraneous information. Avoid stringently columnar or binary input formats. Don't insist on interactive input.
+
         * Design and build software, even operating systems, to be tried early, ideally within weeks. Don't hesitate to throw away the clumsy parts and rebuild them.
+
         * Use tools in preference to unskilled help to lighten a programming task, even if you have to detour to build the tools and expect to throw some of them out after you've finished using them.
 
     Why do I love these? These have stayed solid (as has UNIX) over the past 40 years. I derive my coding principles from these, and the following are my most commonly used ones at the moment
@@ -39,6 +43,7 @@ Based on these 3 ideas, I have a few practical tips.
     A technique not mentioned here and one I am a big fan of is [Event Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture), (or alternatively, Reactive Programming). It helps reduce dependencies, and provides an easier way to guarantee performance and reliability of a system.
 
 2. **Align on quality goals and then automate them**
+
     I have seen situations where the team discussed at length, and kept discussing, the choice of technology. I have also seen similar debates around quality. The only way to avoid an endless debate is to propose and align a set of technologies and quality measures *democratically* with the team, and then adhere to them for at least a few months. And the best way for that to happen is to automate the agreed principles. 
 
         Do not define a quality goal that can not be *(at least partially)* automated, because it is unlikely that it will be implemented.
@@ -62,6 +67,7 @@ Based on these 3 ideas, I have a few practical tips.
     A manual review by the product owner or quality engineer may still be required, but by the time it goes to them, all other checks would have ensured a decent quality level.
 
 3. **Be truly agile: ship the software as soon as possible**
+
     As I said in the [previous blog](http://asinghal.github.io/2021/01/04/modern-software-engineering-part-1.html), shipping software is far more important than perfecting it. As long as the code meets all quality goals, it should be good to deploy.
 
     I always reflect back on my days in the school, when I first started to code. This was what SDLC looked like to me then:
@@ -91,6 +97,7 @@ Based on these 3 ideas, I have a few practical tips.
     One last tip here - be honest to yourself. Everytime you have to do a less than perfect job, note down a technical debt item in your product backlog so it is tracked and never forgotten.
 
 4. **Reduce the number of meetings you attend**
+
     One the main time drains for developers is the number of meetings that happen. Avoid them. Put a limit of a total of 30 minutes per day for meetings that need more than 5 people (e.g. the morning standup) for at least 4 days a week. The exception will be some days when you have a architecture/ design session with whole team, planning meeting, or a retrospective, etc. These longer meetings should be on the fifth day of the week.
 
     Try to move as much communication online as possible. Use tools like Slack to have effective integrations with various tools, and have chats with your team. An online discussion has various advantages - you only dedicate time that you absolutely have to. Also, it helps any other team member to pitch in or learn if they see value in the topic - that makes it much more productive.
@@ -104,6 +111,7 @@ Based on these 3 ideas, I have a few practical tips.
     As a thumb rule, you should be able to get 6-7 hours a day for focussed coding.
 
 5. **Leverage and contribute to Open Source Software, and Internal Open Source**
+
     A key aspect to optimising your time *and* imporving the quality of your code is to leverage open source libraries as much as possible. Everytime you have a problem to solve, check if there is a library that already does that. Ask your team. There is a library for most of the commonly encountered problems - somebody somewhere solved it, stabilized it, and published it. Beware that there are also a number of bad libraries out there, so make sure that a) there is sufficient community behind it, and b) you have tested and seen it working. 
 
     Open source is awesome because people contribute to it. See what you can publish too. If you solved a generic problem, publish a sanitized library (check for your organization's policy first). It helps the community of developers, but it also builds a brand for you and your company, and attracts good developers to work with you.
