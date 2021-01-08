@@ -40,8 +40,8 @@ In this 3 part blog series, I intend to share my perspectives on the various ten
 
 We will explore the following:
 
-* **Part 1**: Defining a strategy for success
-* **Part 2**: Maximizing developer experience and writing high quality software
+* [**Part 1**: Defining a strategy for success](/2021/01/04/modern-software-engineering-part-1.html)
+* [**Part 2**: Maximizing developer experience and writing high quality software](http://asinghal.github.io/2021/01/08/modern-software-engineering-part-2.html)
 * **Part 3**: Designing the organization
 
 These blogs will follow in the coming days, and I look forward to hearing your reflections and experiences.
