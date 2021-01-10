@@ -16,7 +16,7 @@ Based on these 3 ideas, I have a few practical tips.
 
 1. **Build on best-in-class programming techniques**
 
-    My favourite here is the [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) that was published in 1978 (yes, over 40 years ago!):
+    My favorite here is the [UNIX philosophy](https://en.wikipedia.org/wiki/Unix_philosophy) that was published in 1978 (yes, over 40 years ago!):
 
         * Make each program do one thing well. To do a new job, build afresh rather than complicate old programs by adding new "features".
 
@@ -38,7 +38,7 @@ Based on these 3 ideas, I have a few practical tips.
 
         Every time you feel the need to write a comment in the code, see if you can make a new method/ service. Comments usually indicate that the code is doing more than what can be easily understood.
 
-    You can use any programming language, and any style - my personal favourite at the moment is Functional programming in whichever language I use, because it helps me implement the above mentioned goals easily.
+    You can use any programming language, and any style - my personal favorite at the moment is Functional programming in whichever language I use, because it helps me implement the above mentioned goals easily.
 
     A technique not mentioned here and one I am a big fan of is [Event Driven Architecture](https://en.wikipedia.org/wiki/Event-driven_architecture), (or alternatively, Reactive Programming). It helps reduce dependencies, and provides an easier way to guarantee performance and reliability of a system.
 
@@ -48,7 +48,7 @@ Based on these 3 ideas, I have a few practical tips.
 
         Do not define a quality goal that can not be *(at least partially)* automated, because it is unlikely that it will be implemented.
     
-    * Be real about your Definion of Done (or equivalent) and hold your team accountable to it during code reviews
+    * Be real about your Definition of Done (or equivalent) and hold your team accountable to it during code reviews
     * Timebox all decisions
     * Try to leverage industry standards where possible - e.g. AirBnB style for Javascript linting is often used by teams, or like back in the day Sun's Java conventions were pretty standard guideline for Java code
     * Call a meeting at the start of the project and agree on quality goals (and publish them)
@@ -80,7 +80,7 @@ Based on these 3 ideas, I have a few practical tips.
 
     Even when we had a project where multiple teammates were working on it, the cycle only had one more step between 3 and 4: Integrate your code with a friend on their computer (aka production set up)
 
-    There was no 3 or 5 environment set up, no change management, no design aprovals, etc etc.
+    There was no 3 or 5 environment set up, no change management, no design approvals, etc etc.
 
         We have made software development overly complex over the years, and it is important to simplify it. The longer you take to ship software, the worse quality you can expect.
 
@@ -90,11 +90,11 @@ Based on these 3 ideas, I have a few practical tips.
 
     * Use feature branches and feature flags for software development, and have a process to clean up stale feature flags once a feature has been stabilized
     * Ideally, you should push your code to production at least once a day. Worst case (for complex and large problems), push it within a week. For sub-projects (like a redesign) that takes longer, create a pipeline to deploy the feature branch on the test environment for that sub-project - thats your production environment for the sub-project. In no case, keep the feature branch alive for more than a week
-    * Fully automated deployments: Use continuous delivery pipelines and allow developers to build their own infrastructure through scripts/ bots (infrastructure as code). Achieve a full automation on deployment, ideally including the production environment. In highly controlled settings, implement a fully automatic deployment pipleline at least until pre-production/ staging environment, and then a 1-click deployment for production
-    * Ensure sufficient monitoring and logging in the code to observe and learn from user behaviour. That will ensure a much higher level of quality than what can be predicted during the development phase, and is absolutely needed for a continuous delivery system. [CNCF](https://www.cncf.io/projects/) is a great place to start for such topics.
+    * Fully automated deployments: Use continuous delivery pipelines and allow developers to build their own infrastructure through scripts/ bots (infrastructure as code). Achieve a full automation on deployment, ideally including the production environment. In highly controlled settings, implement a fully automatic deployment pipeline at least until pre-production/ staging environment, and then a 1-click deployment for production
+    * Ensure sufficient monitoring and logging in the code to observe and learn from user behavior. That will ensure a much higher level of quality than what can be predicted during the development phase, and is absolutely needed for a continuous delivery system. [CNCF](https://www.cncf.io/projects/) is a great place to start for such topics.
     * Optimize the delivery pipeline to take less than 30 minutes (faster is better) including test execution. This will ensure that developers get feedback on broken builds and issues ASAP, and are able to quickly fix the issues on production.
 
-    One last tip here - be honest to yourself. Everytime you have to do a less than perfect job, note down a technical debt item in your product backlog so it is tracked and never forgotten.
+    One last tip here - be honest to yourself. Every time you have to do a less than perfect job, note down a technical debt item in your product backlog so it is tracked and never forgotten.
 
 4. **Reduce the number of meetings you attend**
 
@@ -112,13 +112,13 @@ Based on these 3 ideas, I have a few practical tips.
 
 5. **Leverage and contribute to Open Source Software, and Internal Open Source**
 
-    A key aspect to optimising your time *and* imporving the quality of your code is to leverage open source libraries as much as possible. Everytime you have a problem to solve, check if there is a library that already does that. Ask your team. There is a library for most of the commonly encountered problems - somebody somewhere solved it, stabilized it, and published it. Beware that there are also a number of bad libraries out there, so make sure that a) there is sufficient community behind it, and b) you have tested and seen it working. 
+    A key aspect to optimizing your time *and* improving the quality of your code is to leverage open source libraries as much as possible. Every time you have a problem to solve, check if there is a library that already does that. Ask your team. There is a library for most of the commonly encountered problems - somebody somewhere solved it, stabilized it, and published it. Beware that there are also a number of bad libraries out there, so make sure that a) there is sufficient community behind it, and b) you have tested and seen it working. 
 
     Open source is awesome because people contribute to it. See what you can publish too. If you solved a generic problem, publish a sanitized library (check for your organization's policy first). It helps the community of developers, but it also builds a brand for you and your company, and attracts good developers to work with you.
 
     Similarly, see if you can build an "internal open source". If a colleague needs to re-use a piece of code, or if you are re-using code written by someone else, see if it can be a library to be shared internally (or if it generic enough, externally too). Do not greedily create libraries, but instead let that be done on demand. This ensures that a good ecosystem exists for all software in your organization, and everybody benefits from your learnings. 
     
-    At the same time, allow anyone in the organization to submit a pull request, or make changes to the library and help evolve it. That's the true nature of open source software and helps with its adoption. Failing this, it just becomes a framework component that will always be your responsibility to maintain and fix, and will also see scepticism from your colleagues on its adoption.
+    At the same time, allow anyone in the organization to submit a pull request, or make changes to the library and help evolve it. That's the true nature of open source software and helps with its adoption. Failing this, it just becomes a framework component that will always be your responsibility to maintain and fix, and will also see skepticism from your colleagues on its adoption.
 
 Finally, find time to learn. Time spent on learning yields exponential results in your productivity (and happiness). Keep measuring quality of your code (through different tools), and you will master it. 
 

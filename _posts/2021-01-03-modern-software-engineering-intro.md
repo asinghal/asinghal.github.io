@@ -16,13 +16,13 @@ This expectation has 3 constituents that define our happiness (or our perception
 2. It must be easy and quick to use (customer centricity)
 3. Everything must work without flaws (bug free software)
 
-I have often defined bugs as "deviations in a software's behaviour against stated or unstated expectations". (Even if no one said they expect a software to work in a certain way, if it does not, they will still be disappointed and will still call it a quality issue).
+I have often defined bugs as "deviations in a software's behavior against stated or unstated expectations". (Even if no one said they expect a software to work in a certain way, if it does not, they will still be disappointed and will still call it a quality issue).
 
 This in turn puts a lot of pressure on businesses and their IT teams (I intentionally draw a difference between the two. We will address it later). The businesses want to deliver to all facets of the customers' expectations, while managing the cost of delivering them. And the IT teams are flooded with requests, often overwhelmed with conflicting priorities coming from various stakeholders.
 
-This makes software engineering much more complex than any other trade - a seemingly impossible scneario. It is only natural then that most IT teams do not deliver to the expectations of their business teams.
+This makes software engineering much more complex than any other trade - a seemingly impossible scenario. It is only natural then that most IT teams do not deliver to the expectations of their business teams.
 
-At the same time, my experience with various large scale IT teams showed a less than 60% time spent by developers on coding features. Even worse, many traditional organizations (businesses for which software is not the core product) have about 50% of team members than are in "overhead" roles - managers, co-ordinators, etc - people that are not directly involved in writing the software on a daily basis. So while there is an ever increasing expectation of faster delivery, the actual effort spent on delivering the software is about 30-40%.
+At the same time, my experience with various large scale IT teams showed a less than 60% time spent by developers on coding features. Even worse, many traditional organizations (businesses for which software is not the core product) have about 50% of team members than are in "overhead" roles - managers, coordinators, etc - people that are not directly involved in writing the software on a daily basis. So while there is an ever increasing expectation of faster delivery, the actual effort spent on delivering the software is about 30-40%.
 
 Lets look at 2 exhibits I found on the internet.
 

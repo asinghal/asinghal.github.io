@@ -22,7 +22,7 @@ Over the years, I have developed a list of 5 "principles" I found useful in defi
 
     It is far more important to be able to fix defects quickly, than to avoid them altogether. There will always be unforeseen issues once the software is released to consumers, but if you can fix that in minutes instead of days, nobody notices, and the impact is negligible.
 
-    An investment into technology - automated delivery (continuous delivery pipelines), monitoring, and processes that enable an on-demand deployment in minutes - will provide a much better risk managment ability compared to any review processes that try to foresee and prevent risk.
+    An investment into technology - automated delivery (continuous delivery pipelines), monitoring, and processes that enable an on-demand deployment in minutes - will provide a much better risk management ability compared to any review processes that try to foresee and prevent risk.
 
 2. **When in doubt, prioritize customer centricity** 
 
@@ -42,7 +42,7 @@ Over the years, I have developed a list of 5 "principles" I found useful in defi
 
     * Software sitting on a development or test machine is worthless until it is made available to the consumers
     * The best way to perfect a software is to put it in front of customers and get feedback on it. There is no way one can perfect a software without the customers providing inputs to it
-    * The longer you wait to release software, chances are that the quality will be lower. Counter-intiutive? That's because the longer you wait, the needs of business are likely to evolve. Plus it will be more complicated to merge all on-going changes being produced by the larger team, and it is more difficult to isolate and fix problems since there is too much change deployed at once
+    * The longer you wait to release software, chances are that the quality will be lower. Counter-intuitive? That's because the longer you wait, the needs of business are likely to evolve. Plus it will be more complicated to merge all on-going changes being produced by the larger team, and it is more difficult to isolate and fix problems since there is too much change deployed at once
 
     I remember working with a colleague who had previously worked in electronics industry - he was stunned that we could modify software and deploy "so quickly". In hardware world, they had to plan every change, implement the change on a breadboard, send the design to a factory for circuit printing, send the circuits over to the QA department, and work on the feedback. It took them weeks. That's not how software engineering works though, and it is important to recognize the difference. In today's world, if a software takes months or years to deliver, somebody's heart sinks.
 
@@ -70,7 +70,7 @@ Over the years, I have developed a list of 5 "principles" I found useful in defi
 
     * Hire quality developers and enable them for success. Let them take decisions. Collective brain power is always better than ivory towers
     * Have a performance centric culture. Celebrate successes, and capture learning from failures. However, ensure that people are not scapegoated for failures. The only failures that need to be discussed are where people were comfortable with their status-quo and failed to try or innovate
-    * Ensure alignment of common language and goals across the organization. As long as there is a seperate "business" and "IT team", quality will suffer. Ensure that the same goals are used for both, and that they are working as collaborators. **Software needs to be business led, and not IT led** (although the tech team needs to have a sufficient degree of freedom to bring in tech innovation). Encourage everyone to think of the customer. It is not just the designer's problem, or the customer service department's. Spend time with the teams, so they feel connected
+    * Ensure alignment of common language and goals across the organization. As long as there is a separate "business" and "IT team", quality will suffer. Ensure that the same goals are used for both, and that they are working as collaborators. **Software needs to be business led, and not IT led** (although the tech team needs to have a sufficient degree of freedom to bring in tech innovation). Encourage everyone to think of the customer. It is not just the designer's problem, or the customer service department's. Spend time with the teams, so they feel connected
     * Invest into the best tooling for the developers. High quality tooling improves productivity, encourages creativity and innovation, and improves people retention. E.g. buying good laptops for developers is a one time cost, and not a great cost, but significantly improves the quality of their output. Good tooling can also improve collaboration and cut down on unnecessary meetings, which further improves the productivity
     * Ensure that everyone is learning from external community (outside of your company) via meet ups, conferences, or talks delivered by external experts. This needs to happen frequently, and the experts need to be real experts, even if they do not speak the local language
 
