@@ -42,6 +42,6 @@ We will explore the following:
 
 * [**Part 1**: Defining a strategy for success](/2021/01/04/modern-software-engineering-part-1.html)
 * [**Part 2**: Maximizing developer experience and writing high quality software](/2021/01/08/modern-software-engineering-part-2.html)
-* **Part 3**: Designing the organization
+* [**Part 3**: Designing the organization](/2021/01/12/modern-software-engineering-part-3.html)
 
 These blogs will follow in the coming days, and I look forward to hearing your reflections and experiences.
