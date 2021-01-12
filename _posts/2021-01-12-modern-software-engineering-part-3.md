@@ -70,7 +70,10 @@ Let's look at all these aspects through various enabling mechanisms.
     * Anybody spending more that 50% of their time in meetings is an overhead
     * The total number of **overhead roles should be less than 25% of the total organization**. So, if the IT team is 100 people, at least 75 of them must be actively building the product
 
-        A simple way to start is to de-layer the organization. A product owner should have a direct reporting to the business leader responsible for that area, and all developers work directly with the product owner and the tech lead, and all tech leads work directly with the IT leader (CIO/ CTO/ VP/ ...). Cut down on all other managerial layers, and clearly define roles and responsibilities for every role
+
+    ```
+    A simple way to start is to de-layer the organization. A product owner should have a direct reporting to the business leader responsible for that area, and all developers work directly with the product owner and the tech lead, and all tech leads work directly with the IT leader (CIO/ CTO/ VP/ ...). Cut down on all other managerial layers, and clearly define roles and responsibilities for every role
+    ```
 
     Ensure that the Product Owner comes from business team's perspective and is responsible for writing clear requirements, and for verifying the implementation, and the Tech Lead is a senior developer with >80% time dedicated to coding, and remaining time for mentoring the team.
 
