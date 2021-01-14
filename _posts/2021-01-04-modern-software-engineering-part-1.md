@@ -3,6 +3,8 @@ author: Aishwarya Singhal
 comments: true
 layout: post
 title: Modern Software Engineering - Part 1. Defining a strategy for success
+prev_link: /2021/01/03/modern-software-engineering-intro.html
+next_link: /2021/01/08/modern-software-engineering-part-2.html
 tags:
 ---
 

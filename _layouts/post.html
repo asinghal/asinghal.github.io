@@ -4,6 +4,18 @@ layout: default
 <div class="post">
 
   <header class="post-header">
+    <div class="pagination-links">
+      <div class="previous-page">
+        {% if page.prev_link %}
+        <a href={{page.prev_link}}>Previous Post</a>
+        {% endif %}
+      </div>
+      <div class="next-page">
+        {% if page.next_link %}
+        <a href={{page.next_link}}>Next Post</a>
+        {% endif %}
+      </div>
+    </div>
     <h1 class="post-title">{{ page.title }}</h1>
     <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
   </header>

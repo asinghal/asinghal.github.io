@@ -3,6 +3,7 @@ author: Aishwarya Singhal
 comments: true
 layout: post
 title: Modern Software Engineering - Part 3 - Designing the organization
+prev_link: /2021/01/08/modern-software-engineering-part-2.html
 tags:
 ---
 

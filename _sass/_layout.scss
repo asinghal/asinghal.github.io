@@ -229,6 +229,13 @@
     }
 }
 
+.pagination-links {
+    width: 100%;
+    margin-bottom: $spacing-unit;
+    display: flex;
+    justify-content: space-between;
+}
+
 .post-content {
     margin-bottom: $spacing-unit * 5;
     border-bottom: #dfdfdf 4px solid;

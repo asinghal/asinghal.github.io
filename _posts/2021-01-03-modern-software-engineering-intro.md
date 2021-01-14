@@ -3,6 +3,7 @@ author: Aishwarya Singhal
 comments: true
 layout: post
 title: Modern Software Engineering - Introduction
+next_link: /2021/01/04/modern-software-engineering-part-1.html
 tags:
 ---
 

@@ -3,6 +3,8 @@ author: Aishwarya Singhal
 comments: true
 layout: post
 title: Modern Software Engineering - Part 2 - Maximizing developer experience and writing high quality software
+prev_link: /2021/01/04/modern-software-engineering-part-1.html
+next_link: /2021/01/12/modern-software-engineering-part-3.html
 tags:
 ---
 
