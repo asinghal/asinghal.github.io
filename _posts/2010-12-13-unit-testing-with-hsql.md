@@ -15,7 +15,7 @@ tags:
 - Unit Testing
 ---
 
-Ever wondered how you could increase the speed of execution of test cases that run against a database? Or how you could unit test without impacting the data in your database? The obvious answer to the latter is to use a seperate database schema, but speed? How about an in-memory database? See, now we are talking!
+Ever wondered how you could increase the speed of execution of test cases that run against a database? Or how you could unit test without impacting the data in your database? The obvious answer to the latter is to use a separate database schema, but speed? How about an in-memory database? See, now we are talking!
 
 HSQL provides a means of running an in-memory all Java RDBMS, so everything runs in the heap. All you need to do is to include the JARs from HSQL website (no I wont give a link here, please use internet search :-) ) into the JUnit execution classpath, configure the datasource as jdbc:hsqldb:mem:mydatabase?shutdown=true. If you use Hibernate in your application, you can use the SchemaExport feature (with Spring over Hibernate, use session factory bean to create database schema) to create the tables et al in the database as well. Bingo, you have a new and shinny blank database schema in the Java heap to run tests against.
 

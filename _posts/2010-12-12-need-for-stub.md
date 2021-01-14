@@ -40,7 +40,7 @@ This is what we did recently: we used Mule. How does Mule help me ? Greatly!
 
 3. Most of the protocols are supported out of the box (we had to write a custom handler for Telnet though) so its kind of plug-and-play.
 
-4. It can be easily run on a seperate JVM and can be deployed anywhere in the system.
+4. It can be easily run on a separate JVM and can be deployed anywhere in the system.
 
 5. I can easily build delays in the responses so that performance testing can see real life type responses.
 
