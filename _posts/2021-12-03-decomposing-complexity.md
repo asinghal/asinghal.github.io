@@ -16,19 +16,19 @@ As a word of caution, I do not aspire to provide any silver bullet answers here,
 
 So what makes something complex? I believe that complexity has 3 main dimensions.
 
-1. **It involves a lot of effort or investments**: These are problems we know how to solve, but its just a *lot* of work. Its also context specific. What may be a lot of work for a start-up may be perfectly acceptable for a larger team.
+1. **It involves a lot of effort or investments**: These are problems we know how to solve, but its just a *lot* of work or you can buy the solution but at a very high price. It is also context specific. What may be a lot of work for a start-up may be perfectly acceptable for a larger team.
 
     In any case, this can be tackled with appropriate prioritization and scope management. It is much easier said than done though, and a lot of teams struggle to define that they *really* need in a Minimum Viable Product (MVP). In a recent example, I witnessed a MVP being built for 5 years (and its not ready yet). It is painful nevertheless vital to define the right scope of work.
 
-    In some cases, it may not be easy to prioritize, specially if it involves rewriting a system, or re-architecting an existing system. In such cases, a side car approach may work better. Build a fake or parallel system, and start migrating topics one by one.
+    In some cases, it may not be easy to prioritize, specially if it involves rewriting or replacing an existing system. In such cases, a side car approach may work better. Build a fake or parallel system, and start migrating topics one by one.
 
     Obviously, a large effort can also be handled by adding more people to the team. However, larger teams need more processes than smaller teams and can sometimes be slower, so there is a fine balance to the maximum team size that will be effective in a certain context.
 
-2. **There is a huge risk of quality**: This is a wider topic. Somethings are easy to implement, but too risk prone. The best way to work with such cases is to break down the problem into smaller components that reduce the risks as much as possible.
+2. **There is a huge risk of quality**: This is a wider topic. Some things are easy to implement, but are too risk prone. The best way to work with such cases is to break down the problem into smaller components that reduce the risks as much as possible.
 
-    But doesn't everything have a quality risk? Perhaps. It is important to understand what is acceptable risk in your context and educate your team on it.
+    But doesn't everything have a quality risk? Perhaps. It is important to understand what is acceptable risk in your context and educate your team on it. You do not need to safeguard against every possible risk, especially if the probability of it materializing in your context is small.
 
-    To understand the topic better, lets break it down further into 3 topics.
+    To understand this topic better, lets break it down further into 3 situations that lead to such risks.
 
     a) **There are a lot of unknowns**: The solution requires components or technologies that the team is not fully familiar with, or some of the requirements can not be completely defined yet. 
 
@@ -36,7 +36,7 @@ So what makes something complex? I believe that complexity has 3 main dimensions
 
     Also, many times people try to solve problems by themselves and do not ask for help. It is important that teams discuss bottlenecks and complexities together, and try to find relevant expertise to help with the solution.
 
-    b) **There are associated business risks**: and the tolerance for errors is extremely small. Most of the times, the risks are overstated. It is important to understand the risks, and add metrics and measures to know when they materialize, but its also important to solve these problems nevertheless. These may require more than normal diligence and validations, and build mechanisms to mitigate these risks when they do materialize.
+    b) **There are associated business risks**: and the tolerance for errors is extremely small. Most of the times, the risks are overstated. It is important to understand the risks, and add metrics and measures to know when they materialize. These may require more than normal diligence and validations, and build mechanisms to mitigate these risks when they do materialize.
 
     c) **It is difficult to validate a solution**: perhaps because it involves a lot of permutations of test data that is not easy to generate, or it addresses very special cases that are not easy to create on a test environment. 
 
