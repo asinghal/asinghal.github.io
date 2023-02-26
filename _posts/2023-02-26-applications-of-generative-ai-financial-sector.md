@@ -24,7 +24,7 @@ The technology has opened a lot of discussions on its use cases. While it is sti
 
 ## Potential applications to the financial services industries
 
-We see primarily 3 main (potential) use cases in the banking, insurance and payments sectors.
+I see primarily 3 main (potential) use cases in the banking, insurance and payments sectors.
 
 1.	**Fraud prevention**: Generative AI can be used to generate large volumes of test data that caters to different combinations otherwise difficult to generate. This provides a much more robust testing strategy for products and enable tightening of rules to prevent fraud and flag anomalies. In addition, the generated test data can also be used to train an AI ML (machine learning) based fraud prevention module.
 2.	**Document processing**: Financial institutions deal with a large number of documents, many for regulatory reasons. This technology can help automate document processing and reduce the number of errors. 
