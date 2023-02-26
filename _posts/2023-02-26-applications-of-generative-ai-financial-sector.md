@@ -18,7 +18,7 @@ In simplest terms, Generative AI is a system with artificial intelligence that c
 
 In essence, AI is a set of algorithms that enable an analysis of a large amount of data and interpret and respond to an incoming query. GPT is Generative Pre-Trained Transformer, like OpenAI’s GPT-3, or Google’s LaMDa. ChatGPT as an example has been trained on [45 Terabytes of data](https://www.reddit.com/r/ChatGPT/comments/10rjcbi/chatgpt_was_trained_on_45tb_of_data_says_chatgpt/), equivalent to millions of volumes of books. Both ChatGPT and Google Bard can interpret questions asked in common language and respond with relevant information. In addition, they use [Generative Adversarial Networks (GAN)](https://en.wikipedia.org/wiki/Generative_adversarial_network) to enhance / generate new information.
 
-The technology has opened a lot of discussions on its use cases. While it is still early times, the authors share their perspectives on what it could mean and how the sectors could start thinking about and prioritizing their investments in this space. 
+The technology has opened a lot of discussions on its use cases. While it is still early times, I am sharing my perspectives on what it could mean and how the sectors could start thinking about and prioritizing their investments in this space. 
 
 
 
